@@ -11,6 +11,7 @@ private:
 	T* end;
 	int Msize;
 	int size;
+
 public:
 	Queue() {
 		size = 0;
