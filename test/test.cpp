@@ -28,6 +28,7 @@ TEST(Queue, can_get_front_element) {
 	q.push(b);
 	EXPECT_TRUE(q.front() == 2);
 }
+
 TEST(Queue, can_get_back_element) {
 	Queue<int> q;
 	int a = 1;

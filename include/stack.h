@@ -11,6 +11,7 @@ private:
 	T* end;
 	int Msize;
 	int size;
+
 public:
 	Queue() {
 		size = 0;
@@ -19,13 +20,6 @@ public:
 		begin = &ptr[0];
 		end = &ptr[0];
 	}
-	/*Queue(int Msize) {
-		this->Msize = Msize;
-		size = 0;
-		ptr.reset( new T[size]);
-		begin = ptr[0];
-		end = ptr[0];
-	}*/
 	void pop() {
 		if (size == 0) {
 			std::exception ex("empty queue");
